@@ -3,7 +3,7 @@
 
 (function(ext) {
 
-  var LANG = 'he'
+  var LANG = 'en'
 
   var words = {
     en: {
