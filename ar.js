@@ -21,6 +21,7 @@
       RateMode: 'rate mode',
       ColorID: 'color ID',
       red: 'red',
+      redMode: 'red mode',
       green: 'green',
       orange: 'orange',
       on: 'on',
@@ -58,27 +59,28 @@
       RateMode: 'מצב דירוג',
       ColorID: 'זהות צבע',
       red: 'אדום',
+      redMode: 'אדום (מד אור)',
       green: 'ירוק',
       orange: 'כתום',
       on: 'דלוק',
       off: 'כבוי',
       blinking: 'הבהוב',
-      startMotor: 'מנוע הפעל',
+      startMotor: 'הפעל מנוע',
       speed: 'מהירות',
-      stopMotor: 'מנוע עצור',
+      stopMotor: 'עצור מנוע',
       motor: 'מנוע',
       degreesAtSpeed: 'מעלות מהירות',
-      setLEDColor: 'לד מנורת הפעל',
+      setLEDColor: 'הפעל מנורת לד',
       status: 'סטאטוס',
-      resetGyro: "ג'יירו אתחל",
-      measureGyro: "ג'יירו מדוד",
-      touchIsPressed: 'מגע חיישן מדוד',
-      measureColor: 'צבע חיישן מדוד',
-      measureUltrasonic: 'סוניק אולטרא מדוד',
-      playNote: 'תו נגן',
+      resetGyro: "אתחל ג'יירו",
+      measureGyro: "מדוד ג'יירו",
+      touchIsPressed: 'חיישן מגע לחוץ',
+      measureColor: 'מדוד חיישן צבע',
+      measureUltrasonic: 'מדוד אולטרא סוניק',
+      playNote: 'נגן תו',
       duration: 'במשך',
-      getTachoCount: 'מנוע מעלות מדוד',
-      resetTachoCount: 'מנוע מעלות אתחל',
+      getTachoCount: 'מדוד מעלות מנוע',
+      resetTachoCount: 'אתחל מעלות מנוע',
     },
     ar: {
       brake: 'فورا',
@@ -95,6 +97,7 @@
       RateMode: 'الوتيرة',
       ColorID: 'ررقم اللون',
       red: 'احمر',
+      redMode: 'ااحمر (قياس الضوء)',
       green: 'اخضر',
       orange: 'برتقالي',
       on: 'تشغيل',
@@ -118,7 +121,7 @@
       resetTachoCount: 'إعادة ضبط اادرجات االمحرك'
     }
   }
-  
+
   ext._shutdown = function() {
 
   }
@@ -205,7 +208,7 @@
       'boolean': [words[LANG].true, words[LANG].false],
       'rotate': [words[LANG].rotate, words[LANG].rotateTo],
 	    'gyroMode': [words[LANG].AngleMode, words[LANG].RateMode],
-      'colorMode': [words[LANG].ColorID, words[LANG].red],
+      'colorMode': [words[LANG].ColorID, words[LANG].redMode],
       'whichColor': [words[LANG].green, words[LANG].orange, words[LANG].red],
       'whichStatus': [words[LANG].on, words[LANG].off, words[LANG].blinking],
       "note":["C4","D4","E4","F4","G4","A4","B4","C5","D5","E5","F5","G5","A5","B5","C6","D6","E6","F6","G6","A6","B6","C#4","D#4","F#4","G#4","A#4","C#5","D#5","F#5","G#5","A#5","C#6","D#6","F#6","G#6","A#6"],
