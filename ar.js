@@ -1,5 +1,14 @@
 //this is the scratchX extension which adds the CoderZ-like blocks to scratch
 
+var a = document.createElement("script");
+a.async = !0, a.src = "https://www.googletagmanager.com/gtag/js?id=UA-112592765-1";
+var f = document.getElementsByTagName("head")[0];
+f.appendChild(a);
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-112592765-1');
 
 (function(ext) {
 
